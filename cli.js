@@ -34,7 +34,7 @@ const cli = meow(
       minDuration: {
         type: 'number',
         shortFlag: 'm',
-        default: 600,
+        default: 300,
       },
     },
     importMeta: import.meta,
