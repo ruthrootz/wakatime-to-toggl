@@ -70,7 +70,7 @@ export async function addEntry(projectId, workspaceId, start, duration, apiKey) 
     .post(
       `workspaces/${workspaceId}/time_entries`,
       {
-        description: 'Development',
+        description: '<coding/>',
         duration: duration,
         start: start,
         project_id: projectId,
